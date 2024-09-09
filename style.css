@@ -1,74 +1,93 @@
-        h1{
-           color: brown;
-           font-size: 50px;
-        }
+h1{
+    color: brown;
+    font-size: 50px;
+    }
         
-        h2{
-            color: #FFCC00;
-        }
+h2{
+    color: #FFCC00;
+    }
         
-        h3{
-            color: #373DBD;
-        }
+h3{
+    color: #373DBD;
+    }
         
-        h4{
-            color: #0A16FC;
-        }
+h4{
+    color: #0A16FC;
+    }
         
-        h5{
-            color: #A7923F;
-        }
+h5{
+    color: #A7923F;
+    }
         
-        h6{
-            color: #43467D;
-        }
+h6{
+    color: #43467D;
+    }
         
-        p{
-            color: #524E3A;
-        }
+p{
+    color: #524E3A;
+    }
         
-           ul{
-            color: #FF00B0;
-        }
-        .shrek{
-            width: 300px;
-            height: auto;
-            border: 5px solid black;
-            border-radius: 10px;
-            text-align: center;
-            display: block;
-        }
-        .meu-botao{
-            background-color: red;
-            color: white;
-            border: none;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-flex;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            border-radius: 8px;
-        }
-        .meu-botao:hover{
-            background-color: orange;
-        }
-        .div-01{
-            width: 100px;
-            height: 50px;
-            background-color: red;
-        }
-        .div-02{
-            background-color: #FF00B0;
-            height: 5rem;
-            width: 50vw;
-        }
-        html{
-            font-family: Georgia, 'Times New Roman', Times, serif
-        }
-        span{
-            color: red;
-            font-weight: bolder;
-            background-color: lightblue;
-        }
+ul{
+    color: #FF00B0;
+    }
+
+.shrek{
+    width: 300px;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    }
+
+.meu-botao{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    }
+
+.meu-botao:hover{
+    background-color: orange;
+    }
+
+.div-01{
+    width: 100px;
+    background-color: red;
+    }
+
+.div-02{
+    background-color: #FF00B0;
+    min-height: 3rem;
+    }
+
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif
+    }
+
+span{
+    color: red;
+    font-weight: bolder;
+    background-color: rgb(122, 210, 240);
+    }
+
+p, h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+.div-tamanho-fixo{
+    width: 300px;
+    height: 60px;
+    background-color: lightseagreen;
+    }
+.div-tamanho-relativo{
+    width: 50%;
+    height: 30%;
+    background-color: lightgreen;
+}
