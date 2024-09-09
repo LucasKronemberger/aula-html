@@ -1,1 +1,56 @@
-
+        h1{
+           color: brown;
+        }
+        
+        h2{
+            color: #FFCC00;
+        }
+        
+        h3{
+            color: #373DBD;
+        }
+        
+        h4{
+            color: #0A16FC;
+        }
+        
+        h5{
+            color: #A7923F;
+        }
+        
+        h6{
+            color: #43467D;
+        }
+        
+        p{
+            color: #524E3A;
+        }
+        
+           ul{
+            color: #FF00B0;
+        }
+        .shrek{
+            width: 300px;
+            height: auto;
+            border: 5px solid black;
+            border-radius: 10px;
+            text-align: center;
+            display: block;
+        }
+        .meu-botao{
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-flex;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        .meu-botao:hover{
+            background-color: orange;
+        }
+        
