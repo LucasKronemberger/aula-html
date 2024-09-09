@@ -1,5 +1,6 @@
         h1{
            color: brown;
+           font-size: 50px;
         }
         
         h2{
@@ -53,4 +54,21 @@
         .meu-botao:hover{
             background-color: orange;
         }
-        
+        .div-01{
+            width: 100px;
+            height: 50px;
+            background-color: red;
+        }
+        .div-02{
+            background-color: #FF00B0;
+            height: 5rem;
+            width: 50vw;
+        }
+        html{
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+        span{
+            color: red;
+            font-weight: bolder;
+            background-color: lightblue;
+        }
